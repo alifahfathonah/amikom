@@ -1,0 +1,16 @@
+/************ MOBILE ***********/
+@media screen and (max-width:800px) {
+    
+    nav.main-nav ul {
+        display: none;
+    }
+    
+    input[type="search"] {
+        display: none;
+    }
+    
+    .slide {
+        display: none!important;
+    }
+    
+}

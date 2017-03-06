@@ -1,0 +1,143 @@
+body {
+    background-color: #eee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+::selection {
+    background: #222;
+    color: #FFF
+}
+
+::-moz-selection {
+    background: #222;
+    color: #FFF
+}
+
+::-webkit-selection {
+    background: #222;
+    color: #FFF
+}
+
+.background-wrapper {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: -webkit-linear-gradient(83deg, #c99650, #894f9f);
+    background: linear-gradient(83deg, #c99650, #894f9f);
+}
+
+.wrapper {
+    width: 590px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 22px;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.09);
+    z-index: 9;
+}
+
+.wrapper h1 {
+    text-align: center;
+    margin: 0px;
+    color: #111;
+    padding: 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+.wrapper h2 {
+    color: #000;
+    padding: 25px;
+    font-size:29px;
+    margin-top: -2px;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+.wrapper h2 img {
+    width: 70px;
+    margin-left: 0px;
+    margin-right: 20px;
+    vertical-align: -20px;
+}
+
+.wrapper .body_text {
+    padding: 44px 30px 15px 30px;
+}
+
+.wrapper input[type="text"],
+.wrapper input[type="password"] {
+    width: 300px;
+    outline: none;
+    margin-left: 30px;
+    display: block;
+    font-size: 15px;
+    border-radius: 0px 6px 6px 0px;
+    padding: 10px 10px 12px 15px;
+    margin-bottom: 30px;
+    border: 1px solid #bbb;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+
+.wrapper input[type="text"]:focus,
+.wrapper input[type="password"]:focus {
+    text-indent: 10px;
+    color: #000;
+}
+
+.wrapper input[type="submit"], 
+.wrapper input[type="reset"] {
+    float:right;
+    border:none;
+    margin-bottom: 4%;
+    margin-right: 1%;
+    margin-left: 3%;
+    background-color: #894f9f;
+    color:#fff;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 19px;
+}
+
+.wrapper input[type="submit"]:hover,
+.wrapper input[type="reset"]:hover {
+    background-color: #111;
+}
+
+.wrapper span {
+    position: relative;
+    width: 200px;
+    display: block;
+    float: left;
+    color: #111;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: 0px;
+}
+
+.wrapper span i {
+    display: block;
+    width: 20px;
+    position: absolute;
+    top: -10px;
+    right: -2px;
+    padding: 12px 10px 10px 14px;
+    background-color:#894f9f;
+    color:#fff;
+    border-radius: 6px 0px 0px 6px;
+}
